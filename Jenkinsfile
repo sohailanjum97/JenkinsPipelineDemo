@@ -11,19 +11,19 @@ pipeline {
                 echo "Hello Guys its a Demo of Jenkins file from SCM for Build Stage"
             }
         }
-        stage('Build'){
+        stage('Test'){
             steps {
-                echo "Hello Guys its a Demo of Jenkins file from SCM for Build Stage"
+                echo "Hello Guys its a Demo of Jenkins file from SCM for Test Stage"
             }
         }
-        stage('Build'){
+        stage('Deploy'){
             steps {
-                echo "Hello Guys its a Demo of Jenkins file from SCM for Build Stage"
+                echo "Hello Guys its a Demo of Jenkins file from SCM for Deploy Stage"
             }
         }
-        stage('Build'){
+        stage('Release'){
             steps {
-                echo "Hello Guys its a Demo of Jenkins file from SCM for Build Stage"
+                echo "Hello Guys its a Demo of Jenkins file from SCM for Release Stage"
             }
         }
     }
